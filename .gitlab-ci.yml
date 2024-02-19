@@ -1,6 +1,6 @@
 gitleaks:
   image:
-    name: zricethezav/gitleaks:v8.18.1@sha256:6945c62ca019ead32bc337ab0c9fd055e98d82961765d38b7ccccc84dae95d0f
+    name: zricethezav/gitleaks:v8.18.2@sha256:eadfe256fa18d6a78a717abc9ed454c8e03865d1c46d627bca83977f4424901a
 
 lint:
-  image: node:iron@sha256:8d0f16fe841577f9317ab49011c6d819e1fa81f8d4af7ece7ae0ac815e07ac84
+  image: node:iron@sha256:f3299f16246c71ab8b304d6745bb4059fa9283e8d025972e28436a9f9b36ed24

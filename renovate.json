@@ -11,6 +11,9 @@
         "matchUpdateTypes": [ "minor", "patch", "digest", "lockFileMaintenance" ],
         "groupName": "all non-major dependencies"
       }
-    ]
+    ],
+    "prBodyDefinitions": {
+      "Confidence": "{% if newVersion -%}[![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' depName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){% endif %}"
+    }
   }
   

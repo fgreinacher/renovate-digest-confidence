@@ -3,4 +3,4 @@ gitleaks:
     name: zricethezav/gitleaks:v8.18.1@sha256:6945c62ca019ead32bc337ab0c9fd055e98d82961765d38b7ccccc84dae95d0f
 
 lint:
-  image: node:iron@sha256:8d0f16fe841577f9317ab49011c6d819e1fa81f8d4af7ece7ae0ac815e07ac84
+  image: node:jod@sha256:23c24e85395992be118734a39903e08c8f7d1abc73978c46b6bda90060091a49
